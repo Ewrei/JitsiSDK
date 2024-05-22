@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/gph_video_player_view.xml",
+        "source": "org.jitsi.meet.sdk-jetified-ui-2.3.4-1:/layout-v21/gph_video_player_view.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/preference_material.xml",
+        "source": "org.jitsi.meet.sdk-preference-1.0.0-18:/layout-v21/preference_material.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/preference_category_material.xml",
+        "source": "org.jitsi.meet.sdk-preference-1.0.0-18:/layout-v21/preference_category_material.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/preference_widget_seekbar_material.xml",
+        "source": "org.jitsi.meet.sdk-preference-1.0.0-18:/layout-v21/preference_widget_seekbar_material.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/preference_information_material.xml",
+        "source": "org.jitsi.meet.sdk-preference-1.0.0-18:/layout-v21/preference_information_material.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/notification_action_tombstone.xml",
+        "source": "org.jitsi.meet.sdk-core-1.9.0-14:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/notification_action.xml",
+        "source": "org.jitsi.meet.sdk-core-1.9.0-14:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/preference_dropdown_material.xml",
+        "source": "org.jitsi.meet.sdk-preference-1.0.0-18:/layout-v21/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/notification_template_custom_big.xml",
+        "source": "org.jitsi.meet.sdk-core-1.9.0-14:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/layout-v21/notification_template_icon_group.xml",
+        "source": "org.jitsi.meet.sdk-core-1.9.0-14:/layout-v21/notification_template_icon_group.xml"
+    }
+]

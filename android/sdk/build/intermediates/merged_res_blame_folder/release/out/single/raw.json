@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/camera_vertex.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/camera_vertex.glsl"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/effect_zoom_vertex.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/effect_zoom_vertex.glsl"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/base_fragment.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/base_fragment.glsl"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/base_vertex.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/base_vertex.glsl"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/capture_vertex.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/capture_vertex.glsl"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/effect_soul_fragment.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/effect_soul_fragment.glsl"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/effect_blackw_fragment.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/effect_blackw_fragment.glsl"
+    },
+    {
+        "merged": "org.jitsi.meet.sdk-merged_res-44:/raw/camera_fragment.glsl",
+        "source": "org.jitsi.meet.sdk-jetified-libausbc-3.3.3-6:/raw/camera_fragment.glsl"
+    }
+]

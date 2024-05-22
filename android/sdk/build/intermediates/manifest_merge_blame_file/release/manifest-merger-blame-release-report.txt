@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="org.jitsi.meet.sdk" >
+5
+6    <uses-sdk android:minSdkVersion="24" />
+6-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml
+7    <!-- XXX ACCESS_NETWORK_STATE is required by WebRTC. -->
+8    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+8-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:5:5-79
+8-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:5:22-76
+9    <uses-permission android:name="android.permission.BLUETOOTH" />
+9-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:6:5-68
+9-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:6:22-65
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:7:5-65
+10-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:7:22-62
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:8:5-67
+11-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+12-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:9:5-75
+12-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:9:22-72
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:10:5-80
+13-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:10:22-77
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:11:5-71
+14-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:11:22-68
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:12:5-68
+15-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:12:22-65
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:13:5-76
+16-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:13:22-73
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:14:5-77
+17-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:14:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+18-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:15:5-92
+18-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:15:22-89
+19
+20    <uses-feature
+20-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:17:5-19:35
+21        android:glEsVersion="0x00020000"
+21-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:18:9-41
+22        android:required="true" />
+22-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:19:9-32
+23    <uses-feature
+23-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:20:5-22:36
+24        android:name="android.hardware.camera"
+24-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:21:9-47
+25        android:required="false" />
+25-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:22:9-33
+26    <uses-feature
+26-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:23:5-25:36
+27        android:name="android.hardware.camera.autofocus"
+27-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:24:9-57
+28        android:required="false" />
+28-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:25:9-33
+29
+30    <application
+30-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:27:5-67:19
+31        android:allowBackup="true"
+31-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:28:9-35
+32        android:label="@string/app_name"
+32-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:29:9-41
+33        android:supportsRtl="true" >
+33-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:30:9-35
+34        <activity
+34-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:31:9-38:57
+35            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+35-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:32:13-46
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+36-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:33:13-122
+37            android:launchMode="singleTask"
+37-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:34:13-44
+38            android:resizeableActivity="true"
+38-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:36:13-46
+39            android:supportsPictureInPicture="true"
+39-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:37:13-52
+40            android:theme="@style/JitsiMeetActivityStyle"
+40-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:35:13-58
+41            android:windowSoftInputMode="adjustResize" />
+41-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:38:13-55
+42
+43        <service
+43-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:40:9-47:19
+44            android:name="org.jitsi.meet.sdk.ConnectionService"
+44-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:41:13-46
+45            android:exported="true"
+45-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:43:13-36
+46            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+46-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:42:13-84
+47            <intent-filter>
+47-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:44:13-46:29
+48                <action android:name="android.telecom.ConnectionService" />
+48-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:45:17-76
+48-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:45:25-73
+49            </intent-filter>
+50        </service>
+51        <service
+51-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:49:9-51:61
+52            android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService"
+52-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:50:13-80
+53            android:foregroundServiceType="mediaPlayback" />
+53-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:51:13-58
+54
+55        <provider
+55-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:53:9-58:20
+56            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+56-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:54:13-83
+57            android:authorities="${applicationId}.fileprovider"
+57-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:55:13-64
+58            android:enabled="false"
+58-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:56:13-36
+59            tools:replace="android:authorities" >
+59-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:57:13-48
+60        </provider>
+61        <provider
+61-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:59:9-65:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:60:13-67
+63            android:authorities="${applicationId}.androidx-startup"
+63-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:61:13-68
+64            android:exported="false" >
+64-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:62:13-37
+65            <meta-data
+65-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:63:13-64:52
+66                android:name="org.jitsi.meet.sdk.JitsiInitializer"
+66-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:63:25-75
+67                android:value="androidx.startup" />
+67-->/Users/peta/jitsi/jitsi-meet-android-sdk-9.0.0/android/sdk/src/main/AndroidManifest.xml:64:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
